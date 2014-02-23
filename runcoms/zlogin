@@ -14,12 +14,14 @@
   fi
 } &!
 
-if (( $+commands[fortune] )); then
-  if [[ -t 0 || -t 1 ]]; then
-    fortune -s
-    print
-  fi
+if (( $+commands[figlet] )); then
+  figlet -f slant Hack Reactor
+  print
 fi
 
-figlet -f slant Lightly Calmer
-print
+# if (( $+commands[fortune] )); then
+#   if [[ -t 0 || -t 1 ]]; then
+#     fortune -s
+#     print
+#   fi
+# fi
