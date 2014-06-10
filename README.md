@@ -5,7 +5,7 @@ Prezto is the configuration framework for [Zsh][1]; it enriches the command line
 interface environment with sane defaults, aliases, functions, auto completion,
 and prompt themes.
 
-This repo contains the Zsh configuration used on all workstations on the fourth floor.
+This repo contains the Zsh configuration used on all workstations at Hack Reactor.
 The intructions below assume that you've already provisioned the workstation
 using ansible. In the future, this entire process will be automated using ansible.
 
