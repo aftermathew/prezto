@@ -52,6 +52,22 @@ version is 4.3.17.
 
   5. Open a new Zsh terminal window or tab.
 
+Uninstallation
+------------
+
+If your wings get burned because you've flown to close to the sun, fear not! Follow the steps below to revert the changes.
+
+  1. Un-Install prezto
+
+        rm ~/.zlogin && rm ~/.zlogout && rm ~/.zpreztorc && rm ~/.zprofile && rm ~/.zshenv && rm ~/.zshrc && rm ~/.zprezto
+
+  2. Set Bash as your default shell:
+
+        chsh -s /bin/bash
+
+  3. Open a new Zsh terminal window or tab.
+
+
 ### Troubleshooting
 
 If you are not able to find certain commands after switching to *Prezto*,
