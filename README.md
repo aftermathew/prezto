@@ -66,8 +66,11 @@ If your wings get burned because you've flown to close to the sun, fear not! Fol
         chsh -s /bin/bash
 
   3. Open a new Zsh terminal window or tab.
+  
+  4. Read the runcoms readme by running `open ~/.zprezto/runcoms/README.md` to get a sense of how prezto works and how to customize your shell further.
 
-
+  5. You can start by changing the default welcome message from "Hack Reactor" by editing `~/.zprezto/runcoms/zlogin`
+  
 ### Troubleshooting
 
 If you are not able to find certain commands after switching to *Prezto*,
