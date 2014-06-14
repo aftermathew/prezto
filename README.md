@@ -52,6 +52,20 @@ version is 4.3.17.
 
   5. Open a new Zsh terminal window or tab.
 
+<<<<<<< HEAD
+=======
+Getting Started
+------------
+
+  1. Read the runcoms readme by running `open ~/.zprezto/runcoms/README.md` to get a sense of how prezto works and how to customize your shell further.
+
+  2. You can start by changing the default welcome message from "Hack Reactor" by editing `~/.zprezto/runcoms/zlogin`
+  
+  3. If you like, install the Solarized color schemes by running
+
+        open "${ZDOTDIR:-$HOME}"/.zprezto/assets/SolarizedDarkxterm-256color.terminal && open "${ZDOTDIR:-$HOME}"/.zprezto/assets/SolarizedLightxterm-256color.terminal
+
+>>>>>>> Clarify readme
 Uninstallation
 ------------
 
