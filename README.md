@@ -13,13 +13,8 @@ Installation
 ------------
 
 Prezto will work with any recent release of Zsh, but the minimum recommended
-<<<<<<< HEAD
 version is 4.3.17.
   0. Install figlet
-=======
-version is 4.3.11.
-  0. Install figlet:
->>>>>>> Fixed README typos.
 
         brew install figlet
 
@@ -57,26 +52,23 @@ version is 4.3.11.
 
   5. Open a new Zsh terminal window or tab.
 
-<<<<<<< HEAD
-=======
 Getting Started
 ------------
 
   1. Read the runcoms readme by running `open ~/.zprezto/runcoms/README.md` to get a sense of how prezto works and how to customize your shell further.
 
   2. You can start by changing the default welcome message from "Hack Reactor" by editing `~/.zprezto/runcoms/zlogin`
-  
+
   3. If you like, install the Solarized color schemes by running
 
         open "${ZDOTDIR:-$HOME}"/.zprezto/assets/SolarizedDarkxterm-256color.terminal && open "${ZDOTDIR:-$HOME}"/.zprezto/assets/SolarizedLightxterm-256color.terminal
 
->>>>>>> Clarify readme
 Uninstallation
 ------------
 
-If your wings get burned because you've flown too close to the sun, fear not! Follow the steps below to revert the changes.
+If your wings get burned because you've flown to close to the sun, fear not! Follow the steps below to revert the changes.
 
-  1. Un-Install prezto:
+  1. Un-Install prezto
 
         rm ~/.zlogin && rm ~/.zlogout && rm ~/.zpreztorc && rm ~/.zprofile && rm ~/.zshenv && rm ~/.zshrc && rm ~/.zprezto
 
@@ -85,11 +77,11 @@ If your wings get burned because you've flown too close to the sun, fear not! Fo
         chsh -s /bin/bash
 
   3. Open a new Zsh terminal window or tab.
-  
+
   4. Read the runcoms readme by running `open ~/.zprezto/runcoms/README.md` to get a sense of how prezto works and how to customize your shell further.
 
   5. You can start by changing the default welcome message from "Hack Reactor" by editing `~/.zprezto/runcoms/zlogin`
-  
+
 ### Troubleshooting
 
 If you are not able to find certain commands after switching to *Prezto*,
@@ -99,14 +91,10 @@ window or tab.
 Updating
 --------
 
-<<<<<<< HEAD
 Run `zprezto-update` to automatically check if there is an update to zprezto.
 If there are no file conflicts, zprezto and its submodules will be
 automatically updated. If there are conflicts you will instructed to go into
 the `$ZPREZTODIR` directory and resolve them yourself.
-=======
-Pull the latest changes and update submodules:
->>>>>>> Fixed README typos.
 
 To pull the latest changes and update submodules manually:
 
@@ -120,7 +108,7 @@ Usage
 -----
 
 Prezto has many features disabled by default. Read the source code and
-accompanying README files to find out what is available.
+accompanying README files to learn of what is available.
 
 ### Modules
 
@@ -141,7 +129,8 @@ Customization
 -------------
 
 The project is managed via [Git][3]. It is highly recommended that you fork this
-project–you can commit your changes and push them to [GitHub][4] so you don't lose them. If you do not know how to use Git, follow this [tutorial][5] and
+project; so, that you can commit your changes and push them to [GitHub][4] to
+not lose them. If you do not know how to use Git, follow this [tutorial][5] and
 bookmark this [reference][6].
 
 Resources
